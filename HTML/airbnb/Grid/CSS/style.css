@@ -1,0 +1,106 @@
+*{
+    text-align: center;
+    padding: 0;
+    margin:0 0 0 0;
+    box-sizing: border-box;
+}
+
+.box{
+    width:700px;
+    margin : 0 auto;
+    background-color: lightgray;
+
+}
+
+.guide_img1{
+    display: grid;
+    background-image: url("../Image/san-francisco.jpg");
+    height: 100px;
+    width: 100px;
+    background-size: 100% 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.guide_img2{
+    display: grid;
+    background-image: url("../Image/new-york.jpg");
+    height: 100px;
+    width: 100px;
+    background-size: 100% 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.guide_img3{
+    display: grid;
+    background-image: url("../Image/london.jpg");
+    height: 100px;
+    width: 100px;
+    background-size: 100% 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.week_img1{
+    display: grid;
+    background-image: url("../Image/napa.jpg");
+    height: 100px;
+    width: 100px;
+    background-size: 100% 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.week_img2{
+    display: grid;
+    background-image: url("../Image/sonoma.jpg");
+    height: 100px;
+    width: 100px;
+    background-size: 100% 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.week_img3{
+    display: grid;
+    background-image: url("../Image/san-francisco-2.jpg");
+    height: 100px;
+    width: 100px;
+    background-size: 100% 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.weekend{
+    display:inline-block;
+    width: 700px;
+}
+
+.guide{
+    display:inline-block;
+}
+
+.title{
+    color:salmon;
+}
+
+.img{    
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:10px;
+    width:400px;
+    margin: 0 auto;
+}
+
+button{
+    background-color: salmon;
+    color: white;
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    margin: 10px 0 10px 0;
+}

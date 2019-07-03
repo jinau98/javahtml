@@ -1,0 +1,9 @@
+package test;
+
+public class Zealot {
+	int attack = 10;
+	int armor = 5;
+	final String name = "Áú·µ"; // 4Byte
+	int hp = 100;
+	int sh = 100;
+}

@@ -1,0 +1,9 @@
+package test;
+
+public class Coin {
+	public static void main(String[] args) {
+		int money=2680;
+		int rest_money= money;
+		int count;
+	}
+}
